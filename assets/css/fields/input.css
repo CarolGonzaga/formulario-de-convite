@@ -1,7 +1,6 @@
 input,
 textarea,
 select {
-    appearance: none;
     background-color: var(--input-base);
     border: 1px solid var(--input-stroke);
     width: 100%;
@@ -20,11 +19,14 @@ input, select {
     height: 3rem;
 }
 
+textarea {
+    height: 8.5rem;
+}
+
 label {
     font: var(--body-sm);
     color: var(--text-body);
     display: block;
-    margin-bottom: 0.75rem;
 }
 
 input:focus,

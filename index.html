@@ -65,7 +65,7 @@
                                 <label for="type">Tipo</label>
                                 <div class="radio-wrapper">
                                     <div class="radio-inner">
-                                        <input type="radio" name="type" value="presencial" id="presencial">
+                                        <input type="radio" name="type" value="presencial" id="presencial" checked>
                                         <label for="presencial">
                                             <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
@@ -104,11 +104,463 @@
                                 placeholder="Escreva sobre os detalhes do evento"></textarea>
                         </div>
                     </fieldset>
-                </form>
+
+                    <fieldset class="custom">
+                        <legend>
+                            <img src="assets/icons/paintbrush-vertical.svg" alt="">
+                            Personalização
+                        </legend>
+                        <div class="input-wrapper flex-1">
+                            <label for="color">Cor principal</label>
+                            <div class="color-wrapper">
+                                <div class="color-inner">
+                                    <input type="radio" name="color" value="blue" id="blue">
+                                    <label for="blue">
+                                        <svg width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g filter="url(#filter0_d_2122_902)">
+                                                <rect x="4" width="40" height="40" rx="20" fill="#2D3136" />
+                                                <rect x="10" y="6" width="28" height="28" rx="14" fill="#59B2FF" />
+                                            </g>
+                                            <defs>
+                                                <filter id="filter0_d_2122_902" x="0" y="0" width="48" height="48"
+                                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                        result="hardAlpha" />
+                                                    <feOffset dy="4" />
+                                                    <feGaussianBlur stdDeviation="2" />
+                                                    <feComposite in2="hardAlpha" operator="out" />
+                                                    <feColorMatrix type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                                        result="effect1_dropShadow_2122_902" />
+                                                    <feBlend mode="normal" in="SourceGraphic"
+                                                        in2="effect1_dropShadow_2122_902" result="shape" />
+                                                </filter>
+                                            </defs>
+                                        </svg>
+                                    </label>
+                                </div>
+
+                                <div class="color-inner">
+                                    <input type="radio" name="color" value="navy" id="navy">
+                                    <label for="navy">
+                                        <svg width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g filter="url(#filter0_d_2122_902)">
+                                                <rect x="4" width="40" height="40" rx="20" fill="#2D3136" />
+                                                <rect x="10" y="6" width="28" height="28" rx="14" fill="#6A59FF" />
+                                            </g>
+                                            <defs>
+                                                <filter id="filter0_d_2122_902" x="0" y="0" width="48" height="48"
+                                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                        result="hardAlpha" />
+                                                    <feOffset dy="4" />
+                                                    <feGaussianBlur stdDeviation="2" />
+                                                    <feComposite in2="hardAlpha" operator="out" />
+                                                    <feColorMatrix type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                                        result="effect1_dropShadow_2122_902" />
+                                                    <feBlend mode="normal" in="SourceGraphic"
+                                                        in2="effect1_dropShadow_2122_902" result="shape" />
+                                                </filter>
+                                            </defs>
+                                        </svg>
+                                    </label>
+                                </div>
+
+                                <div class="color-inner">
+                                    <input type="radio" name="color" value="purple" id="purple">
+                                    <label for="purple">
+                                        <svg width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g filter="url(#filter0_d_2122_902)">
+                                                <rect x="4" width="40" height="40" rx="20" fill="#2D3136" />
+                                                <rect x="10" y="6" width="28" height="28" rx="14" fill="#B259FF" />
+                                            </g>
+                                            <defs>
+                                                <filter id="filter0_d_2122_902" x="0" y="0" width="48" height="48"
+                                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                        result="hardAlpha" />
+                                                    <feOffset dy="4" />
+                                                    <feGaussianBlur stdDeviation="2" />
+                                                    <feComposite in2="hardAlpha" operator="out" />
+                                                    <feColorMatrix type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                                        result="effect1_dropShadow_2122_902" />
+                                                    <feBlend mode="normal" in="SourceGraphic"
+                                                        in2="effect1_dropShadow_2122_902" result="shape" />
+                                                </filter>
+                                            </defs>
+                                        </svg>
+                                    </label>
+                                </div>
+
+                                <div class="color-inner">
+                                    <input type="radio" name="color" value="fuschia" id="fuschia">
+                                    <label for="fuschia">
+                                        <svg width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g filter="url(#filter0_d_2122_902)">
+                                                <rect x="4" width="40" height="40" rx="20" fill="#2D3136" />
+                                                <rect x="10" y="6" width="28" height="28" rx="14" fill="#FF59F9" />
+                                            </g>
+                                            <defs>
+                                                <filter id="filter0_d_2122_902" x="0" y="0" width="48" height="48"
+                                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                        result="hardAlpha" />
+                                                    <feOffset dy="4" />
+                                                    <feGaussianBlur stdDeviation="2" />
+                                                    <feComposite in2="hardAlpha" operator="out" />
+                                                    <feColorMatrix type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                                        result="effect1_dropShadow_2122_902" />
+                                                    <feBlend mode="normal" in="SourceGraphic"
+                                                        in2="effect1_dropShadow_2122_902" result="shape" />
+                                                </filter>
+                                            </defs>
+                                        </svg>
+                                    </label>
+                                </div>
+
+                                <div class="color-inner">
+                                    <input type="radio" name="color" value="pink" id="pink">
+                                    <label for="pink">
+                                        <svg width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g filter="url(#filter0_d_2122_902)">
+                                                <rect x="4" width="40" height="40" rx="20" fill="#2D3136" />
+                                                <rect x="10" y="6" width="28" height="28" rx="14" fill="#FF598B" />
+                                            </g>
+                                            <defs>
+                                                <filter id="filter0_d_2122_902" x="0" y="0" width="48" height="48"
+                                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                        result="hardAlpha" />
+                                                    <feOffset dy="4" />
+                                                    <feGaussianBlur stdDeviation="2" />
+                                                    <feComposite in2="hardAlpha" operator="out" />
+                                                    <feColorMatrix type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                                        result="effect1_dropShadow_2122_902" />
+                                                    <feBlend mode="normal" in="SourceGraphic"
+                                                        in2="effect1_dropShadow_2122_902" result="shape" />
+                                                </filter>
+                                            </defs>
+                                        </svg>
+                                    </label>
+                                </div>
+
+                                <div class="color-inner">
+                                    <input type="radio" name="color" value="red" id="red">
+                                    <label for="red">
+                                        <svg width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g filter="url(#filter0_d_2122_902)">
+                                                <rect x="4" width="40" height="40" rx="20" fill="#2D3136" />
+                                                <rect x="10" y="6" width="28" height="28" rx="14" fill="#FF5959" />
+                                            </g>
+                                            <defs>
+                                                <filter id="filter0_d_2122_902" x="0" y="0" width="48" height="48"
+                                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                        result="hardAlpha" />
+                                                    <feOffset dy="4" />
+                                                    <feGaussianBlur stdDeviation="2" />
+                                                    <feComposite in2="hardAlpha" operator="out" />
+                                                    <feColorMatrix type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                                        result="effect1_dropShadow_2122_902" />
+                                                    <feBlend mode="normal" in="SourceGraphic"
+                                                        in2="effect1_dropShadow_2122_902" result="shape" />
+                                                </filter>
+                                            </defs>
+                                        </svg>
+                                    </label>
+                                </div>
+
+                                <div class="color-inner">
+                                    <input type="radio" name="color" value="orange" id="orange">
+                                    <label for="orange">
+                                        <svg width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g filter="url(#filter0_d_2122_902)">
+                                                <rect x="4" width="40" height="40" rx="20" fill="#2D3136" />
+                                                <rect x="10" y="6" width="28" height="28" rx="14" fill="#FF8B59" />
+                                            </g>
+                                            <defs>
+                                                <filter id="filter0_d_2122_902" x="0" y="0" width="48" height="48"
+                                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                        result="hardAlpha" />
+                                                    <feOffset dy="4" />
+                                                    <feGaussianBlur stdDeviation="2" />
+                                                    <feComposite in2="hardAlpha" operator="out" />
+                                                    <feColorMatrix type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                                        result="effect1_dropShadow_2122_902" />
+                                                    <feBlend mode="normal" in="SourceGraphic"
+                                                        in2="effect1_dropShadow_2122_902" result="shape" />
+                                                </filter>
+                                            </defs>
+                                        </svg>
+                                    </label>
+                                </div>
+
+                                <div class="color-inner">
+                                    <input type="radio" name="color" value="yellow" id="yellow">
+                                    <label for="yellow">
+                                        <svg width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g filter="url(#filter0_d_2122_902)">
+                                                <rect x="4" width="40" height="40" rx="20" fill="#2D3136" />
+                                                <rect x="10" y="6" width="28" height="28" rx="14" fill="#FFCD59" />
+                                            </g>
+                                            <defs>
+                                                <filter id="filter0_d_2122_902" x="0" y="0" width="48" height="48"
+                                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                        result="hardAlpha" />
+                                                    <feOffset dy="4" />
+                                                    <feGaussianBlur stdDeviation="2" />
+                                                    <feComposite in2="hardAlpha" operator="out" />
+                                                    <feColorMatrix type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                                        result="effect1_dropShadow_2122_902" />
+                                                    <feBlend mode="normal" in="SourceGraphic"
+                                                        in2="effect1_dropShadow_2122_902" result="shape" />
+                                                </filter>
+                                            </defs>
+                                        </svg>
+                                    </label>
+                                </div>
+
+                                <div class="color-inner">
+                                    <input type="radio" name="color" value="lime" id="lime">
+                                    <label for="lime">
+                                        <svg width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g filter="url(#filter0_d_2122_902)">
+                                                <rect x="4" width="40" height="40" rx="20" fill="#2D3136" />
+                                                <rect x="10" y="6" width="28" height="28" rx="14" fill="#E1FF59" />
+                                            </g>
+                                            <defs>
+                                                <filter id="filter0_d_2122_902" x="0" y="0" width="48" height="48"
+                                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                        result="hardAlpha" />
+                                                    <feOffset dy="4" />
+                                                    <feGaussianBlur stdDeviation="2" />
+                                                    <feComposite in2="hardAlpha" operator="out" />
+                                                    <feColorMatrix type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                                        result="effect1_dropShadow_2122_902" />
+                                                    <feBlend mode="normal" in="SourceGraphic"
+                                                        in2="effect1_dropShadow_2122_902" result="shape" />
+                                                </filter>
+                                            </defs>
+                                        </svg>
+                                    </label>
+                                </div>
+
+                                <div class="color-inner">
+                                    <input type="radio" name="color" value="green" id="green">
+                                    <label for="green">
+                                        <svg width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g filter="url(#filter0_d_2122_902)">
+                                                <rect x="4" width="40" height="40" rx="20" fill="#2D3136" />
+                                                <rect x="10" y="6" width="28" height="28" rx="14" fill="#59FF91" />
+                                            </g>
+                                            <defs>
+                                                <filter id="filter0_d_2122_902" x="0" y="0" width="48" height="48"
+                                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                        result="hardAlpha" />
+                                                    <feOffset dy="4" />
+                                                    <feGaussianBlur stdDeviation="2" />
+                                                    <feComposite in2="hardAlpha" operator="out" />
+                                                    <feColorMatrix type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                                        result="effect1_dropShadow_2122_902" />
+                                                    <feBlend mode="normal" in="SourceGraphic"
+                                                        in2="effect1_dropShadow_2122_902" result="shape" />
+                                                </filter>
+                                            </defs>
+                                        </svg>
+                                    </label>
+                                </div>
+
+                                <div class="color-inner">
+                                    <input type="radio" name="color" value="cyan" id="cyan">
+                                    <label for="cyan">
+                                        <svg width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g filter="url(#filter0_d_2122_902)">
+                                                <rect x="4" width="40" height="40" rx="20" fill="#2D3136" />
+                                                <rect x="10" y="6" width="28" height="28" rx="14" fill="#59FFF9" />
+                                            </g>
+                                            <defs>
+                                                <filter id="filter0_d_2122_902" x="0" y="0" width="48" height="48"
+                                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                        result="hardAlpha" />
+                                                    <feOffset dy="4" />
+                                                    <feGaussianBlur stdDeviation="2" />
+                                                    <feComposite in2="hardAlpha" operator="out" />
+                                                    <feColorMatrix type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                                        result="effect1_dropShadow_2122_902" />
+                                                    <feBlend mode="normal" in="SourceGraphic"
+                                                        in2="effect1_dropShadow_2122_902" result="shape" />
+                                                </filter>
+                                            </defs>
+                                        </svg>
+                                    </label>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="period">Tema do evento</label>
+
+                            <div class="theme-wrapper">
+                                <div class="theme-inner">
+                                    <input type="radio" name="theme" value="birthday" id="birthday">
+                                    <img src="assets/images/Image.jpg" alt="Tema de Aniversário">
+                                    <label for="birthday">Aniversário</label>
+                                </div>
+
+                                <div class="theme-inner">
+                                    <input type="radio" name="theme" value="kids" id="kids">
+                                    <img src="assets/images/Image-1.jpg" alt="Tema Infantil">
+                                    <label for="kids">Infantil</label>
+                                </div>
+
+                                <div class="theme-inner">
+                                    <input type="radio" name="theme" value="graduation" id="graduation">
+                                    <img src="assets/images/Image-2.jpg" alt="Tema de Formatura">
+                                    <label for="graduation">Formatura</label>
+                                </div>
+
+                                <div class="theme-inner">
+                                    <input type="radio" name="theme" value="wedding" id="wedding">
+                                    <img src="assets/images/Image-3.jpg" alt="Tema de Casamento">
+                                    <label for="wedding">Casamento</label>
+                                </div>
+
+                                <div class="theme-inner">
+                                    <input type="radio" name="theme" value="baby-shower" id="baby-shower">
+                                    <img src="assets/images/Image-4.jpg" alt="Tema de Chá de bebê">
+                                    <label for="baby-shower">Chá de bebê
+                                    </label>
+                                </div>
+
+                                <div class="theme-inner">
+                                    <input type="radio" name="theme" value="kitchen-shower" id="kitchen-shower">
+                                    <img src="assets/images/Image-5.jpg" alt="Tema de Chá de panela">
+                                    <label for="kitchen-shower">Chá de panela</label>
+                                </div>
+
+                                <div class="theme-inner">
+                                    <input type="radio" name="theme" value="carnival" id="carnival">
+                                    <img src="assets/images/Image-6.jpg" alt="Tema de Carnaval">
+                                    <label for="carnival">Carnaval</label>
+                                </div>
+
+                                <div class="theme-inner">
+                                    <input type="radio" name="theme" value="easter" id="easter">
+                                    <img src="assets/images/Image-7.jpg" alt="Tema de Páscoa">
+                                    <label for="easter">Páscoa</label>
+                                </div>
+
+                                <div class="theme-inner">
+                                    <input type="radio" name="theme" value="june-festival" id="june-festival">
+                                    <img src="assets/images/Image-8.jpg" alt="Tema de São João">
+                                    <label for="june-festival">São João</label>
+                                </div>
+
+                                <div class="theme-inner">
+                                    <input type="radio" name="theme" value="halloween" id="halloween">
+                                    <img src="assets/images/Image-9.jpg" alt="Tema de Halloween">
+                                    <label for="halloween">Halloween</label>
+                                </div>
+
+                                <div class="theme-inner">
+                                    <input type="radio" name="theme" value="christmas" id="christmas">
+                                    <img src="assets/images/Image-10.jpg" alt="Tema de Natal">
+                                    <label for="christmas">Natal</label>
+                                </div>
+
+                                <div class="theme-inner">
+                                    <input type="radio" name="theme" value="other" id="other">
+                                    <img src="assets/images/Image-11.jpg" alt="Tema Outros">
+                                    <label for="other">Outro</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-16">
+                            <div class="input-wrapper flex-1">
+                                <label for="style">Estilo</label>
+                                <div class="checkbox-wrapper">
+                                    <input type="checkbox" id="check">
+                                    <label for="check" class="button"></label>
+                                    <span class="mode-label"></span>
+                                </div>
+                            </div>
+
+                            <div class="input-wrapper flex-2">
+                                <label for="upload">Foto de capa</label>
+                                <div class="upload-wrapper">
+                                    <label for="file-upload" class="custom-file-upload">
+                                        <img src="assets/icons/upload.svg" alt="">
+                                        Selecionar</label>
+                                    <input type="file" id="file-upload">
+                                    <span id="file-name" class="file-name">Nenhum arquivo selecionado</span>
+                                </div>
+                            </div>
+                        </div>
             </div>
 
-        </main>
+            </fieldset>
+            </form>
     </div>
+
+    </main>
+    </div>
+    <script>
+        document.getElementById("file-upload").addEventListener("change", function () {
+            const fileName = this.files.length > 0 ? this.files[0].name : "Nenhum arquivo selecionado";
+            document.getElementById("file-name").textContent = fileName;
+        });
+    </script>
 </body>
 
 </html>

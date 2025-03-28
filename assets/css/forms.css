@@ -22,3 +22,12 @@ legend {
 fieldset + fieldset {
     margin-top: 3rem;
 }
+
+.about .input-wrapper > label,
+.about .textarea-wrapper > label {
+    margin-bottom: 0.75rem;
+}
+
+.custom .input-wrapper > label {
+    margin-bottom: 1rem;
+}
