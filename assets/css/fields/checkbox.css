@@ -56,37 +56,61 @@
     }
 }
 
-.upload-wrapper {
-    height: 3rem;
+.terms-wrapper {
+    margin-top: 3rem;
+    padding-block: 2.5rem 3rem;
+    border-top: 1px solid var(--input-stroke);
+
     display: flex;
-    align-items: center;
-    gap: 0.75rem;
+    flex-direction: column;
+    gap: .5rem;
 
-    input[type="file"] {
-        display: none;
-    }
-
-    .custom-file-upload {
-        background-color: var(--shape-button);
-        color: white;
-        font-weight: 600;
-
-        padding: 10px 20px;
-        border-radius: 5px;
-        cursor: pointer;
-        
+    & .terms-row {
         display: flex;
+        justify-content: flex-start;
         align-items: center;
-        gap: 0.5rem;
-        transition: background 0.2s;
+        gap: 0.75rem;
+
+        & input[type="checkbox"] {
+            appearance: none;
+            -webkit-appearance: none;
+            padding: 0;
+            border-radius: .25rem;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            display: flex;
+            outline: none;
+            position: relative;
+
+            &:checked {
+                border: 2px solid var(--brand-light);
+            }
+
+            &:checked::before {
+                content: "";
+                position: absolute;
+                width: 14px;
+                height: 14px;
+                background: url("../../icons/check.svg") no-repeat center center;
+                background-size: contain;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+        }
+
+        & label {
+            color: var(--text-body);
+            font: var(--body-sm);
+
+            & strong {
+                color: var(--brand-light);
+                font-weight: 600;
+                text-decoration: underline;
+            }
+        }
     }
 
-    .custom-file-upload:hover {
-        background-color: var(--shape-hover);
-    }
-
-    .file-name {
-        color: var(--input-placeholder);
-        font: var(--body-md);
-    }
 }

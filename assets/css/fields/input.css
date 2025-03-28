@@ -15,7 +15,8 @@ select {
     }
 }
 
-input, select {
+input,
+select {
     height: 3rem;
 }
 
@@ -55,5 +56,25 @@ input[type="datetime-local"] {
         right: 1rem;
         top: 50%;
         transform: translateY(-50%);
+    }
+}
+
+input {
+    
+    &:invalid:not(:focus) {
+        border: 2px solid var(--danger);
+    }
+
+    &+.error {
+        margin-top: .5rem;
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        font: var(--body-xs);
+        color: var(--danger);
+    }
+
+    &:valid+.error {
+        display: none;
     }
 }

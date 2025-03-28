@@ -24,7 +24,8 @@ fieldset + fieldset {
 }
 
 .about .input-wrapper > label,
-.about .textarea-wrapper > label {
+.about .textarea-wrapper > label,
+.contact .input-wrapper > label {
     margin-bottom: 0.75rem;
 }
 

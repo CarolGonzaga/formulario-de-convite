@@ -547,13 +547,71 @@
                                 </div>
                             </div>
                         </div>
+
+
+                    </fieldset>
+
+                    <fieldset class="contact">
+                        <legend>
+                            <img src="assets/icons/contact.svg" alt="">
+                            Dados para contato
+                        </legend>
+
+                        <div class="input-wrapper">
+                            <label for="fullname">Nome</label>
+                            <input id="fullname" name="fullname" type="text" placeholder="Nome completo" required>
+                            <div class="error">
+                                <img src="assets/icons/alert.svg" alt="Ícone de alerta">
+                                <span>Campo obrigatório</span>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-16">
+                            <div class="input-wrapper flex-1">
+                                <label for="email">E-mail</label>
+                                <input id="email" name="email" type="email" placeholder="exemplo@email.com">
+                            </div>
+
+                            <div class="input-wrapper flex-1">
+                                <label for="phone">Telefone</label>
+                                <input id="phone" name="phone" type="tel" placeholder="(99) 99999-9999">
+                            </div>
+                        </div>
+
+                        <div class="terms-wrapper">
+                            <div class="terms-row">
+                                <input type="checkbox" id="term-1">
+                                <label for="term-1">
+                                    Li e concordo com os <strong>Termos e Condições</strong> e com a <strong>Política de
+                                        Privacidade</strong>
+                                </label>
+                            </div>
+                            <div class="terms-row">
+                                <input type="checkbox" id="term-2">
+                                <label for="term-2">
+                                    Aceito receber atualizações e promoções por e-mail
+                                </label>
+                            </div>
+                            <div class="terms-row">
+                                <input type="checkbox" id="term-3">
+                                <label for="term-3">
+                                    Aceito receber atualizações e promoções por SMS
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="actions-wrapper">
+                            <button class="btn-primary">
+                                <img src="assets/icons/ticket.svg" alt="">
+                                Gerar convite
+                            </button>
+                        </div>
+
+                    </fieldset>
+                </form>
             </div>
 
-            </fieldset>
-            </form>
-    </div>
-
-    </main>
+        </main>
     </div>
     <script>
         document.getElementById("file-upload").addEventListener("change", function () {
